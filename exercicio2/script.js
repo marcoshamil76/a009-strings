@@ -2,9 +2,10 @@ const minhaString = "Eu não sou supersticioso, mas sou um pouco ________.      
 
 console.log ("A frase", minhaString, "contém ", minhaString.length, "caracteres")
 const minhastring2 = minhaString.trim()
+
 console.log ("Porém ao removermos os espaços teremos somente", minhastring2.length, "caracteres")
 
-console.log (minhaString.replace("________", "sticioso"))
+console.log (minhaString.replaceAll("_________", "sticioso"))
 
 
 // # Exercício 2
